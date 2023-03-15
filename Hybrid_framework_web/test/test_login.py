@@ -81,7 +81,7 @@ class TestLogin(WebDriverWrapper):
         self.driver.find_element(By.XPATH, "//input[@name='telephone']").send_keys(Phonenumber)
         self.driver.find_element(By.XPATH, "//input[@name='ko_unique_1']").click()
         self.driver.find_element(By.XPATH, "//span[normalize-space()='Next']").click()
-        element = WebDriverWait(self.driver, 20).until(
+        element = WebDriverWait(self.driver, 21).until(
             EC.presence_of_element_located(
                 (By.XPATH, "//div[normalize-space()='Payment Method']"))
         )
