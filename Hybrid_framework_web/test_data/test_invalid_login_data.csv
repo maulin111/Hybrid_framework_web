@@ -1,0 +1,3 @@
+username;password;expected_error
+maulin;maulin123;Please enter a valid email address (Ex: johndoe@domain.com).
+ken;ken123;Please enter a valid email address (Ex: johndoe@domain.com).
